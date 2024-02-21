@@ -1,0 +1,137 @@
+/* This stylesheet will be selected when you export HTML from InDesign */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*your style rules go in here */
+  background-color: rgb(162, 89, 89);
+}
+
+main {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  /* this is where your nav list items will be */
+}
+
+section {
+border:none;
+border-width: 0;
+}
+
+/*Here follows the class names that you will have in your html*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+/* the following may not be used but it doesn't matter if they are listed here  */
+
+/* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+
+.dramatis {
+  
+
+}
+.play {
+
+}
+figure {
+
+}
+
+.image {
+  width: 60%;
+  margin: 12px auto;
+  max-width: 600px;
+
+}
+
+.coin_image {
+  width: 50%;
+  margin: 12px auto;
+  max-width: 100px;
+}
+
+img {
+  display: block;
+  width: 100%;
+
+}
+.act {
+  color: teal;
+  text-align: center;
+  font-size: 2rem;
+ 
+
+}
+.character {
+  position: relative;
+  top: 1.2em;
+  width: 100px;
+  margin-left: 1rem;
+
+}
+.charactername {
+
+
+}
+.dramatishead {
+text-align: center;
+color: teal;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.location {
+  text-align: center;
+  font-size: medium
+}
+.play_location {
+
+}
+
+.firstscene {
+
+}
+
+.scene {
+  text-align: center;
+  color: slateblue;
+
+}
+.song {
+
+}
+.stagedirection {
+  font-style: italic;
+  font-size: 1em;
+  text-align: center;
+
+}
+.verseline {
+  margin: 0 0 0.4em 8em;
+}
+
+.prose {
+  margin: 0 0 0.4em 8em;
+}
+
+.character_role {
+color: slateblue;
+}
+.stage_directions_inline {
+  
+}
+
